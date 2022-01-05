@@ -5,12 +5,12 @@ using System.Windows;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Remote Installer")]
+[assembly: AssemblyTitle("")]
 [assembly: AssemblyDescription("An installer for the Remote service, which provides unattended remote access and remote scripting.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Remoteme Installer")]
-[assembly: AssemblyCopyright("Copyright ©  2021 ")]
+[assembly: AssemblyProduct("")]
+[assembly: AssemblyCopyright(" ")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
