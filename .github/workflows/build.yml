@@ -129,7 +129,12 @@ jobs:
 
     # Execute all unit tests in the solution
     - name: Execute unit tests
-      run: dotnet test
+      run: UseDotNet@2
+      displayName: 'Use .NET Core sdk'
+      inputs:
+       packageType: 'sdk'
+       version: '6.0.x'
+        includePreviewVersions: true
 
     # Restore the application to populate the obj folder with RuntimeIdentifiers
     - name: Restore the application
